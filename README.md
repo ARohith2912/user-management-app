@@ -1,12 +1,45 @@
-# React + Vite
+# User Management CRUD Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a complete CRUD (Create, Read, Update, Delete) application built with React to manage a list of users.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Read Users:** Fetches and displays a list of users from the JSONPlaceholder API.
+- **Create User:** A form to add a new user to the list.
+- **Update User:** An "Edit" button for each user to modify their details.
+- **Delete User:** A "Delete" button to remove a user.
+- **Responsive Design:** The layout is optimized for both desktop and mobile devices.
+- **State Management:** Uses a custom React Hook for centralized state management.
+- **Routing:** Implemented with `react-router-dom`.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React:** For building the user interface.
+- **React Hooks:** `useState`, `useEffect`, `useParams` for state and side effects.
+- **Axios:** A promise-based HTTP client for API requests.
+- **React Router DOM:** For handling application routing.
+- **Vercel/Netlify:** (Mention the one you use) For live deployment.
+
+## How to Run Locally
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/user-management-app.git](https://github.com/your-username/user-management-app.git)
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd user-management-app
+    ```
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+4.  **Run the application:**
+    ```bash
+    npm start
+    ```
+    The application will be available at `http://localhost:3000`.
+
+## Live Application
+
+[Provide your live URL here after deployment]
